@@ -27,23 +27,26 @@ A friendly ethical hacking toolkit for Termux, built with love for Malak.
 
 ## Installation
 
-1. Install **Termux** from [F‑Droid](https://f-droid.org/en/packages/com.termux/) (the Play Store version is outdated).
+1. Install **Termux** from [F‑Droid](https://f-droid.org/en/packages/com.termux/) or from Github (the Play Store version is outdated).
 2. Open Termux and update packages:
    ```bash
    pkg update && pkg upgrade
    pkg install python
 ```
 
-1. Save the script as malakhacks.py.
-      (You can copy it with nano malakhacks.py and paste the code.)
+1. copy the repository:
+     ```bash
+git clone https://github.com/sigmakader/MalakHacks.git
+cd MalakHacks
+  ```
 2. Make it executable (optional):
-   ```bash
+      ```bash
    chmod +x malakhacks.py
    ```
 3. Run it:
-   ```bash
+      ```bash
    python malakhacks.py
-
+      ```
 ---
 
 Getting external tools to work
