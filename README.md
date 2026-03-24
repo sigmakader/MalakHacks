@@ -1,40 +1,56 @@
-# Ethical Hacking Toolkit
+# Original MalakHacks README
 
-## Introduction  
-This toolkit is designed to facilitate ethical hacking practices. It includes various tools and resources for penetration testing, vulnerability assessment, and more.
+Welcome to MalakHacks! This is a friendly ethical hacking toolkit designed for Termux, providing a comprehensive set of tools and resources for both beginners and advanced users. 
 
-## Installation  
-1. **Clone the repository:**  
-   ```bash  
-   git clone https://github.com/sigmakader/MalakHacks.git  
-   ```  
-2. **Navigate to the directory:**  
-   ```bash  
-   cd MalakHacks  
-   ```  
-3. **Install dependencies:**  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
+## Installation
 
-## Usage  
-To run the toolkit, simply execute:  
-```bash  
-python run_tool.py  
-```
+You can install MalakHacks from the following sources:
+- [GitHub](https://github.com/sigmakader/MalakHacks)
+- [F-Droid](https://f-droid.org/)
 
-## Features  
-- **Penetration Testing**  
-- **Vulnerability Assessment**  
-- **Remote Exploitation**  
+### Steps to Install:
+1. Open Termux.
+2. Update your packages:
+   ```bash
+   pkg update && pkg upgrade
+   ```
+3. Install Git:
+   ```bash
+   pkg install git
+   ```
+4. Clone the repository:
+   ```bash
+   git clone https://github.com/sigmakader/MalakHacks.git
+   ```
+5. Change directory to MalakHacks:
+   ```bash
+   cd MalakHacks
+   ```
+6. Run the setup script:
+   ```bash
+   bash setup.sh
+   ```
 
-## Contributing  
-If you would like to contribute to the project, please fork the repository and submit a pull request.  
+## Categories of Tools
+- **Networking**: Tools for network scanning and analysis.
+- **Information Gathering**: Collecting information about target systems.
+- **Vulnerability Assessment**: Identifying vulnerabilities in systems.
+- **Exploitation**: Tools for exploiting vulnerabilities.
+- **Post-Exploitation**: Tools for maintaining access.
+- **Forensics**: Recovering and analyzing data.
+- **Social Engineering**: Tools for social engineering attacks.
+- **Web Hacking**: Tools for web application exploitation.
+- **Wireless Testing**: Tools for testing wireless networks.
+- **Cryptography**: Tools for cryptographic functions.
 
-## License  
-This project is licensed under the MIT License.  
+## Tool Guides
+Detailed guides for each tool can be found in the respective directories within the MalakHacks repository. 
 
-## Acknowledgements  
-Thanks to all the contributors of this project and the open-source community for their support!  
+## Troubleshooting
+If you encounter any issues during installation or usage, please refer to the troubleshooting section in each tool's guide. 
 
-For more information, please check the documentation and reach out to the community if you have questions.
+## Disclaimer
+Use MalakHacks responsibly and only on systems you have permission to test. The authors are not responsible for any misuse.
+
+## Credits
+This toolkit was created by sigmakader and contributors. Thank you for your support! 🎀
