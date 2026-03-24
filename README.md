@@ -1,6 +1,6 @@
 # MalakHacks 🎀
 
-MalakHacks is a comprehensive toolkit designed for various cybersecurity practices and learning experiences. This README provides an overview of its capabilities and how to set it up.
+MalakHacks is a comprehensive toolkit designed for various cybersecurity practices and learning experiences js for Malak (but u can use it too if ur interested). This README provides an overview of its capabilities and how to set it up.
 
 ## What's Inside
 1. **Installation Instructions**  
@@ -98,7 +98,7 @@ MalakHacks is a comprehensive toolkit designed for various cybersecurity practic
   - If an installation fails, check your internet connection.
 
 ## Disclaimer
-*Use these tools responsibly and adhere to ethical guidelines in cybersecurity.*
+*I'm not responsible for anything done by Malak.*
 
 ## Credits
-- Developed by sigmakader & contributors.
+- Developed by [EL4Q](https://github.com/sigmakader) just for Malak, stay curious 🎀.
