@@ -1,4 +1,3 @@
-```markdown
 # MalakHacks 🎀
 
 A friendly ethical hacking toolkit for Termux, built with love for Malak.  
@@ -44,7 +43,6 @@ A friendly ethical hacking toolkit for Termux, built with love for Malak.
 3. Run it:
    ```bash
    python malakhacks.py
-   ```
 
 ---
 
