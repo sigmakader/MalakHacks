@@ -25,7 +25,7 @@ MalakHacks is a comprehensive toolkit designed for various cybersecurity practic
    pkg install git
    git clone https://github.com/sigmakader/MalakHacks.git
    cd MalakHacks
-   bash install.sh
+   bash install_RI.sh
    ```
 
 ## Detailed Tool Installation Guides
