@@ -1,56 +1,104 @@
-# Original MalakHacks README
+# MalakHacks 🎀
 
-Welcome to MalakHacks! This is a friendly ethical hacking toolkit designed for Termux, providing a comprehensive set of tools and resources for both beginners and advanced users. 
+MalakHacks is a comprehensive toolkit designed for various cybersecurity practices and learning experiences. This README provides an overview of its capabilities and how to set it up.
 
-## Installation
+## What's Inside
+1. **Installation Instructions**  
+2. **Getting External Tools to Work**  
+3. **How It Works**  
+4. **Troubleshooting**  
+5. **Disclaimer**  
+6. **Credits**  
 
-You can install MalakHacks from the following sources:
-- [GitHub](https://github.com/sigmakader/MalakHacks)
-- [F-Droid](https://f-droid.org/)
+## Installation Instructions
+### Installation for Termux
+#### From F-Droid
+1. Open F-Droid App.  
+2. Search for 'MalakHacks'.  
+3. Tap install.
 
-### Steps to Install:
-1. Open Termux.
-2. Update your packages:
-   ```bash
-   pkg update && pkg upgrade
-   ```
-3. Install Git:
-   ```bash
+#### From GitHub
+1. Ensure Termux is installed.  
+2. Execute the following commands in Termux:
+   ```sh
+   pkg update
    pkg install git
-   ```
-4. Clone the repository:
-   ```bash
    git clone https://github.com/sigmakader/MalakHacks.git
-   ```
-5. Change directory to MalakHacks:
-   ```bash
    cd MalakHacks
-   ```
-6. Run the setup script:
-   ```bash
-   bash setup.sh
+   bash install.sh
    ```
 
-## Categories of Tools
-- **Networking**: Tools for network scanning and analysis.
-- **Information Gathering**: Collecting information about target systems.
-- **Vulnerability Assessment**: Identifying vulnerabilities in systems.
-- **Exploitation**: Tools for exploiting vulnerabilities.
-- **Post-Exploitation**: Tools for maintaining access.
-- **Forensics**: Recovering and analyzing data.
-- **Social Engineering**: Tools for social engineering attacks.
-- **Web Hacking**: Tools for web application exploitation.
-- **Wireless Testing**: Tools for testing wireless networks.
-- **Cryptography**: Tools for cryptographic functions.
+## Detailed Tool Installation Guides
+### John the Ripper
+1. Install dependencies:  
+   ```sh
+   pkg install gcc make
+   ```  
+2. Clone the repository:  
+   ```sh
+   git clone https://github.com/openwall/john.git
+   ```
+3. Follow the instructions in the John the Ripper repository to compile.
 
-## Tool Guides
-Detailed guides for each tool can be found in the respective directories within the MalakHacks repository. 
+### Hydra
+1. Install dependencies:  
+   ```sh
+   pkg install cmake
+   ```  
+2. Clone the repository:  
+   ```sh
+   git clone https://github.com/vanhauser-thc/thc-hydra.git
+   ```
+3. Follow the instructions in the Hydra repository to compile.
+
+### Hashcat
+1. Install dependencies:  
+   ```sh
+   pkg install opencl-clang opencl-headers
+   ```
+2. Clone the repository:  
+   ```sh
+   git clone https://github.com/hashcat/hashcat.git
+   ```
+
+### theHarvester
+1. Install dependencies:  
+   ```sh
+   pip install theHarvester
+   ```
+
+### wafw00f
+1. Install dependencies:  
+   ```sh
+   pip install wafw00f
+   ```
+
+### binwalk
+1. Install dependencies:  
+   ```sh
+   pip install binwalk
+   ```
+
+### shodan
+1. Install dependencies:  
+   ```sh
+   pip install shodan
+   ```
+
+### metasploit
+1. Install dependencies:  
+   ```sh
+   pkg install curl git
+   ```  
+2. Follow the install instructions from the Metasploit GitHub page.
 
 ## Troubleshooting
-If you encounter any issues during installation or usage, please refer to the troubleshooting section in each tool's guide. 
+- **Common Issues**:
+  - Ensure all dependencies are installed as listed above.
+  - If an installation fails, check your internet connection.
 
 ## Disclaimer
-Use MalakHacks responsibly and only on systems you have permission to test. The authors are not responsible for any misuse.
+*Use these tools responsibly and adhere to ethical guidelines in cybersecurity.*
 
 ## Credits
-This toolkit was created by sigmakader and contributors. Thank you for your support! 🎀
+- Developed by sigmakader & contributors.
